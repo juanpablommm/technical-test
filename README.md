@@ -41,6 +41,6 @@ docker pull postgres 14.18 && sudo  docker run -d --name db_educamas -e POSTGRES
 gradle bootRun
 ```
 ##Evidences
-![login](https://github.com/juanpablommm/technical-test/issues/1#issue-3058518764)
+![Image](https://github.com/user-attachments/assets/88ae002c-6cf4-4da9-a5ae-78b8a87ed820)
 
 © Juan Pablo Montoya Ospinal
