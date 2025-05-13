@@ -43,4 +43,6 @@ gradle bootRun
 ##Evidences
 ![Image](https://github.com/user-attachments/assets/88ae002c-6cf4-4da9-a5ae-78b8a87ed820)
 
+* Collection https://github.com/juanpablommm/technical-test/issues/2#issue-3058525070
+
 © Juan Pablo Montoya Ospinal
