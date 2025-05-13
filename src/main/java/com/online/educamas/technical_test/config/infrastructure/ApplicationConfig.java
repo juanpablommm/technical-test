@@ -1,4 +1,4 @@
-package com.online.educamas.technical_test.infrastructure;
+package com.online.educamas.technical_test.config.infrastructure;
 
 import com.challenge.ecommerce.tps.encript.KeyRsaSupplier;
 import com.challenge.ecommerce.tps.jwt.JwtManagement;

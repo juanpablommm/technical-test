@@ -1,4 +1,4 @@
-package com.online.educamas.technical_test.infrastructure;
+package com.online.educamas.technical_test.share.infrastructure;
 
 
 import com.challenge.ecommerce.tps.exceptions.JwtManagementException;
@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
 
 @RestControllerAdvice
 @Slf4j
-public class UserManagementControllerAdvice extends ResponseEntityExceptionHandler {
+public class ApplicationControllerAdvice extends ResponseEntityExceptionHandler {
 
 
 	@ExceptionHandler(JwtManagementException.class)

@@ -2,7 +2,7 @@ package com.online.educamas.technical_test.authentication.infrastructure;
 
 
 
-import com.online.educamas.technical_test.infrastructure.ApplicationException;
+import com.online.educamas.technical_test.share.infrastructure.ApplicationException;
 import com.online.educamas.technical_test.users.domain.UserDomain;
 import com.online.educamas.technical_test.users.domain.UserRepository;
 import com.online.educamas.technical_test.users.infrastructure.UserMapper;

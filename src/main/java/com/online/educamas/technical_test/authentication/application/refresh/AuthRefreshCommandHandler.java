@@ -4,7 +4,7 @@ package com.online.educamas.technical_test.authentication.application.refresh;
 
 import com.online.educamas.technical_test.authentication.domain.AuthRefreshTokenRepository;
 import com.online.educamas.technical_test.authentication.domain.RefreshToken;
-import com.online.educamas.technical_test.infrastructure.ApplicationException;
+import com.online.educamas.technical_test.share.infrastructure.ApplicationException;
 import jakarta.transaction.Transactional;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;

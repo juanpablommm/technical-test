@@ -1,4 +1,4 @@
-package com.online.educamas.technical_test.infrastructure;
+package com.online.educamas.technical_test.share.infrastructure;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
