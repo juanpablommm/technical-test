@@ -1,0 +1,47 @@
+spring:
+  application:
+  name: technical-test
+#TODO change to enviroments
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: 060900diminombre
+    username: juampis
+    url: jdbc:postgresql://localhost:5432/db_educamas
+
+server:
+  port: 8081
+  servlet:
+    context-path: /technical-test
+
+  #flyway
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+    validate-on-migrate: true
+    clean-disabled: true
+    schemas: public
+    table: flyway_schema_history
+    baseline-version: 0
+
+#JKS for security at jwt
+settings-jks:
+  path: src/main/resources/hospital.jks
+  alias: key-rsa-ecommerce
+  password: ecommerce2024
+
+settings-refresh-token:
+  times:
+    jwt: 5
+
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+  default-consumes-media-type: application/json
+  default-produces-media-type: application/json
+
